@@ -60,6 +60,15 @@ function onYouTubeIframeAPIReady() {
             'onStateChange': onPlayerStateChange
         }
     });
+    player = new YT.Player('depo7', {
+        height: '600',
+        width: '1100',
+        videoId: 'gn38lZYJpm4',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
 }
 
 function onPlayerReady(event) {

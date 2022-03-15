@@ -6231,6 +6231,10 @@ textarea.form-control.is-invalid {
 }
 
 @media (min-width:1200px) {
+    .modal-dialog {
+        max-width: 1100px;
+        margin: 1.75rem auto
+    }
     .modal-xl {
         max-width: 1140px
     }

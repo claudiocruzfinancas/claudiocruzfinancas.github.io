@@ -1,34 +1,6 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700);
 
-.btn-success {
-    background-color: #28a745;
-    border-color: #28a745 #28a745 #1e7e34;
-    color: #FFF;
-    box-shadow: 0 100px 80px 0 rgb(121 243 84 / 15%), 0 41px 33px 0 rgb(121 243 84 / 11%), 0 23px 18px 0 rgb(121 243 84 / 9%), 0 13px 10px 0 rgb(121 243 84 / 7%), 0 7px 5px 0 rgb(121 243 84 / 6%), 0 3px 2px 0 rgb(121 243 84 / 4%);
-}
-.header1{
-    display: flex;
-    align-items: center;
-}
-@media (max-width:992px) {
-    .header1{
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    background-color: blue;
-    color: #FFF;
-    width: 100%;
-    height: 100px;    
-    text-align: center;
-    line-height: 100px;
-}
-
 :root {
     --bs-gray-100: #f8f9fa;
     --bs-gray-200: #e9ecef;
@@ -130,6 +102,7 @@ body {
     font-size: var(--bs-body-font-size);
     font-weight: var(--bs-body-font-weight);
     line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
     text-align: var(--bs-body-text-align);
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
@@ -40354,7 +40327,6 @@ footer.bg-dark.angled.upper-start:before {
         top: 0;
         z-index: 1020
     }
-
 }
 
 @media (min-width:1200px) {

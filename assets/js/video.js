@@ -78,6 +78,69 @@ function onYouTubeIframeAPIReady() {
             'onStateChange': onPlayerStateChange
         }
     });
+    player = new YT.Player('depo9', {
+        height: '640',
+        width: '360',
+        videoId: 'ROXUiQZBQQc',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+    player = new YT.Player('depo10', {
+        height: '640',
+        width: '360',
+        videoId: '1xtsPZNQmlI',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+    player = new YT.Player('depo11', {
+        height: '640',
+        width: '360',
+        videoId: '7jdOdmq7Fuw',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+    player = new YT.Player('depo12', {
+        height: '640',
+        width: '360',
+        videoId: 'djv3U7LT-bI',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+    player = new YT.Player('depo13', {
+        height: '640',
+        width: '360',
+        videoId: 'c6co8UYL3jU',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+    player = new YT.Player('depo14', {
+        height: '640',
+        width: '360',
+        videoId: 'gO9zI6qpYxw',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
+    player = new YT.Player('depo15', {
+        height: '640',
+        width: '360',
+        videoId: 'Zpds7FY-2sk',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
 }
 
 function onPlayerReady(event) {

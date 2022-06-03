@@ -141,6 +141,15 @@ function onYouTubeIframeAPIReady() {
             'onStateChange': onPlayerStateChange
         }
     });
+    player = new YT.Player('obrigado', {
+        height: '640',
+        width: '1024',
+        videoId: 'Zpds7FY-2sk',
+        events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        }
+    });
 }
 
 function onPlayerReady(event) {

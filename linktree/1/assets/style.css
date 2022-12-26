@@ -9,7 +9,8 @@ a{
     text-decoration: none;
 }
 body{
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,7 +71,7 @@ body{
 .social__links ul li a img{
     width: 18%;
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
-    transform: scale(1.4) translateZ(50px);
+    transform: scale(1.4);
     transition: 0.25s;
     padding-left: 10px;
     padding-right: 30px;
@@ -80,6 +81,9 @@ body{
 }
 .social__links ul li a span{
     line-height: 1.4rem;
+}
+.social__links ul li a span h3{
+    font-size: 4vw;
 }
 .social__links ul .set1:hover{
     background: #ff9e1a;
@@ -102,5 +106,8 @@ body{
     body{
         background-size: 100%;
         background-position: 50%;
+    }
+    .social__links ul li a span h3{
+        font-size: 1.3vw;
     }
 }
